@@ -1,1 +1,80 @@
-<mxfile host="app.diagrams.net" modified="2023-03-16T02:48:32.711Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="20.8.23" etag="d33cKMfMU0Tz76BsOExc" type="github"><diagram name="第 1 页" id="F5-1O8o-OYWhDIOKPq0Y">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-03-16T03:26:15.695Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="nirjabmDqKEQ30hn-upL" version="20.8.23" type="github">
+  <diagram name="第 1 页" id="F5-1O8o-OYWhDIOKPq0Y">
+    <mxGraphModel dx="794" dy="404" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-1" value="数据员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-8" value="采购员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="480" y="80" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-9" value="供应商" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-12" value="" style="endArrow=classic;html=1;rounded=0;startArrow=none;" edge="1" parent="1" source="jYLZY5CmuF188mWI5Yc8-14" target="jYLZY5CmuF188mWI5Yc8-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="190" as="sourcePoint" />
+            <mxPoint x="440" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-13" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="jYLZY5CmuF188mWI5Yc8-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="190" as="sourcePoint" />
+            <mxPoint x="480" y="115" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-14" value="下发任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="339" y="135" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="jYLZY5CmuF188mWI5Yc8-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="210" as="sourcePoint" />
+            <mxPoint x="440" y="210" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-16" value="推送采购/普通&lt;br&gt;消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYLZY5CmuF188mWI5Yc8-15">
+          <mxGeometry x="-0.1241" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-17" value="接收任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="460" y="50" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-18" value="接收消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="505" y="275" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-19" value="质检员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="700" y="165" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-20" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="110" as="sourcePoint" />
+            <mxPoint x="690" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-21" value="上报成品" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYLZY5CmuF188mWI5Yc8-20">
+          <mxGeometry x="-0.4671" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-22" value="接收成品质检任务" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="135" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-24" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="90" as="sourcePoint" />
+            <mxPoint x="240" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYLZY5CmuF188mWI5Yc8-25" value="汇报任务" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jYLZY5CmuF188mWI5Yc8-24">
+          <mxGeometry x="0.0837" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
